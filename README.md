@@ -1,9 +1,13 @@
 # Polis Calculation Project Setup Guide
 
 
-### Example Image
+### Example Image Swagger Documentation
 
-![Swagger Docs](./docs/images/img.png)
+![Swagger Docs](docs/images/swagger.png)
+
+### Example Image Redoc Documentation
+
+![Redoc Docs](docs/images/redoc.png)
 
 
 ## 1. Clone the repository
@@ -35,6 +39,8 @@ Then open your browser:
 
 [Project Swagger Docs](http://0.0.0.0:8000/docs)
 
+[Project Redoc Docs](http://0.0.0.0:8000/redoc)
+
 ## 4. Running without Docker
 
 **Requirements:**
@@ -63,5 +69,7 @@ uv run uvicorn app.main:app --reload
 Then open your browser:
 
 [Project Swagger Docs](http://127.0.0.1:8000/docs)
+
+[Project Redoc Docs](http://127.0.0.1:8000/redoc)
 
 
