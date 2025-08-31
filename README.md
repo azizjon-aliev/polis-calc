@@ -115,7 +115,3 @@ Decimal.quantize(Decimal("0.01"), rounding=ROUND_HALF_UP)
 * `settings.quote_base_price` must be `Decimal`. Use Decimal end-to-end and serialize to string in JSON if needed.
 * Coefficients are static by default — move to config/DB if you need runtime changes.
 * Validate `age` and `experience` as positive integers in schemas.
-
----
-
-If you want this in Russian, or even shorter (single-paragraph), say the word and I’ll shrink it.
